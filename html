@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHomepage">
+        <div class="card1-bg d-flex flex-column justify-content-end">
+            <div class="card1-bg-part2">
+                <h1 class="card1-bg-part2-h1">Sunrise Avenue</h1>
+                <p class="card1-bg-part2-p">Move to what moves you</p>
+                <button class="card1-bg-part2-button" onclick="display('sectionlistpage')">Book Flat</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionlistpage" class="flats-list-bg">
+        <h1 class="card1-bg-part2-h1">Sunrise Avenue</h1>
+        <div class="d-flex flex-row falt-list-card-bg">
+            <img src=" https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="image-edit" onclick="display('section3bhk')" />
+            <div style="margin-left:10px">
+                <h1 class="falt-list-card-h1">3BHK Flat</h1>
+                <p class="falt-list-card-p">This is a fully finishes house with handmade furniture including luxury.Its built-up area is about 1600sq.ft. a spacious home for you to live in.</p>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row falt-list-card-bg" style="margin-top:6px">
+            <img src=" https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="image-edit" onclick="display('section2bhk')" />
+            <div style="margin-left:10px">
+                <h1 class="falt-list-card-h1">2BHK Flat</h1>
+                <p class="falt-list-card-p">A minimalist house made fpr modren day families.It fully furnished with trending furnitures.Its bulit-up area is about 1200sq.ft.</p>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row falt-list-card-bg" style="margin-top:6px">
+            <img src=" https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="image-edit" onclick="display('section4bhk')" />
+            <div style="margin-left:10px">
+                <h1 class="falt-list-card-h1">4BHK Flat</h1>
+                <p class="falt-list-card-p">A contemprorary home withmore color and vibrancy.It is fully furnished with elegant furnitures.Its bulit-up area is about 3600sq.ft.</p>
+            </div>
+        </div>
+        <button class="card1-bg-part2-button" style="margin:5px" onclick="display('sectionHomepage')">Back</button>
+    </div>
+    <div id="section3bhk" class="flats-list-bg ">
+        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="image-edit-details" />
+        <h1 class="card1-bg-part2-h1" style="margin-left:10px">Rs 3000/-</h1>
+        <div class="d-flex flex-row" style="margin-left:10px">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="image-edit-location" />
+            <p class="falt-detail-card-p">D/N 5-2,Food Street,Indore</p>
+        </div>
+        <h1 class="card1-bg-part2-h1" style="margin-left:10px">Description</h1>
+        <p class="falt-detail-card-p" style="margin-left:10px">This is a fully finishes house with handmade <br />furniture including luxury en-suite facilities pack.Its built-up area is about 1600sq.ft. a spacious home for you to live in. </p>
+        <div style="margin-left:90px">
+            <button class="card1-bg-part2-button" style="margin-left:5px" onclick="display('sectionthankyou')">Confirm</button>
+            <button class="card1-bg-part2-button" style="margin-left:5px" onclick="display('sectionlistpage')">Back</button>
+        </div>
+    </div>
+    <div id="section2bhk" class="flats-list-bg ">
+        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" class="image-edit-details" />
+        <h1 class="card1-bg-part2-h1" style="margin-left:10px">Rs 2000/-</h1>
+        <div class="d-flex flex-row" style="margin-left:10px">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="image-edit-location" />
+            <p class="falt-detail-card-p">D/N 5-2,Food Street,Indore</p>
+        </div>
+        <h1 class="card1-bg-part2-h1" style="margin-left:10px">Description</h1>
+        <p class="falt-detail-card-p" style="margin-left:10px">A minimalist house made fpr modren day families.It fully furnished with trending furnitures.Its bulit-up area is about 1200sq.ft. </p>
+        <div style="margin-left:90px">
+            <button class="card1-bg-part2-button" style="margin-left:5px" onclick="display('sectionthankyou')">Confirm</button>
+            <button class="card1-bg-part2-button" style="margin-left:5px" onclick="display('sectionlistpage')">Back</button>
+        </div>
+    </div>
+    <div id="section4bhk" class="flats-list-bg ">
+        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" class="image-edit-details" />
+        <h1 class="card1-bg-part2-h1" style="margin-left:10px">Rs 4000/-</h1>
+        <div class="d-flex flex-row" style="margin-left:10px">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="image-edit-location" />
+            <p class="falt-detail-card-p">D/N 5-2,Food Street,Indore</p>
+        </div>
+        <h1 class="card1-bg-part2-h1" style="margin-left:10px">Description</h1>
+        <p class="falt-detail-card-p" style="margin-left:10px">A contemprorary home withmore color and vibrancy.It is fully furnished with elegant furnitures.Its bulit-up area is about 3600sq.ft.</p>
+        <div style="margin-left:90px">
+            <button class="card1-bg-part2-button" style="margin-left:5px" onclick="display('sectionthankyou')">Confirm</button>
+            <button class="card1-bg-part2-button" style="margin-left:5px" onclick="display('sectionlistpage')">Back</button>
+        </div>
+    </div>
+    <div id="sectionthankyou">
+        <div class="card1-bg d-flex flex-column justify-content-end">
+            <div class="card1-bg-part2">
+                <h1 class="card1-bg-part2-h1">Sunrise Avenue</h1>
+                <p class="card1-bg-part2-p">Thank you for visiting the Sunrise Avenue and chossing as part of your life </p>
+                <button class="card1-bg-part2-button" onclick="display('sectionHomepage')">Vist Again</button>
+                <button class="card1-bg-part2-button" onclick="display('sectionlistpage')">Back</button>
+            </div>
+        </div>
+
+
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
